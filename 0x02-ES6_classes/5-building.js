@@ -1,5 +1,5 @@
 export default class Building {
-	constructor(sqft, currency) {
+	constructor(sqft) {
 		if (this.constructor != Building) {
 			if (!('evacuationWarningMessage' in this.constructor)) {
 			}
