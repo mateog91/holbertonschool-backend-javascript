@@ -12,7 +12,7 @@ export default class Airport {
 
   set location(value) { this._location = value; }
 
-  Number() { return `${this.size}`; }
+  Number() { return this.size; }
 
   String() { return `${this.location}`; }
 }
